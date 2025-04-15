@@ -1,0 +1,9 @@
+### user login
+POST http://localhost:5001/api/users/signup
+Content-Type: application/json
+
+{
+  "name": "Rubyga",
+  "email": "rubyga@example.com",
+  "password": "123456"
+}
